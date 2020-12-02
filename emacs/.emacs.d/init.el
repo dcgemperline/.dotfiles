@@ -91,19 +91,6 @@
 	 (";" . ess-insert-assign))
   )
 
-;;(use-package polymode
-;;  :ensure t
-;;  )
-
-;;(use-package poly-markdown
-;;  :requires polymode
-;;  :ensure t
-;;  :mode (("\\.rmd" . poly-markdown+rmode)
-;;	 ("\\.Rmd" . poly-markdown+rmode)
-;;	 ("\\.md" . poly-markdown-mode)
-;;	 )
-;;  )
-
 (use-package poly-R
   :requires polymode
   :ensure t
